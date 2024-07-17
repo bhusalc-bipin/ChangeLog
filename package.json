@@ -1,0 +1,30 @@
+{
+  "name": "changelog",
+  "version": "0.0.1",
+  "description": "This app allows a product manager or engineer post product updates for their users.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhusalc-bipin/ChangeLog.git"
+  },
+  "author": "BhusalC-Bipin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhusalc-bipin/ChangeLog/issues"
+  },
+  "homepage": "https://github.com/bhusalc-bipin/ChangeLog#readme",
+  "dependencies": {
+    "@prisma/client": "^5.17.0",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "prisma": "^5.17.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
